@@ -42,7 +42,10 @@ class EventReporter
               queue_clear
               puts "queue is cleared"
             end
-            
+
+            if command_parts[1] == "print"
+              @queue.empty? ? (puts "Sorry, queue is empty!") : (puts @queue)
+            end
 
           when 'help'
 
