@@ -1,6 +1,6 @@
 require 'minitest'
 require 'minitest/autorun'
-require './event_reporter'
+require '../event_reporter'
 require 'csv'
 
 class EventReporterTest < Minitest::Test
@@ -11,6 +11,17 @@ class EventReporterTest < Minitest::Test
     assert_kind_of EventReporter, er
   end
 
-
-
 end
+
+
+
+
+# dont worry abut commands yet - just work on what program needs to do
+# load file
+# create attendee class with attributes as methods
+
+# create user interface part
+# command class with case/if statements 
+
+# third class
+# run method
